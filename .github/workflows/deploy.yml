@@ -57,6 +57,19 @@ jobs:
       - name: Build with Next.js
         run: npm run build
 
+      - name: Verify build output
+        run: |
+          echo "Checking if out directory exists..."
+          if [ -d "./out" ]; then
+            echo "✅ out directory found"
+            ls -la ./out
+          else
+            echo "❌ out directory not found"
+            echo "Available directories:"
+            ls -la
+            exit 1
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
