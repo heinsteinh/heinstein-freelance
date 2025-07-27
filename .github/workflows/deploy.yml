@@ -54,20 +54,36 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Next.js
+      - name: Build and export with Next.js
         run: npm run build
 
       - name: Verify build output
         run: |
-          echo "Checking if out directory exists..."
+          echo "Checking build outputs..."
+          echo "Contents of current directory:"
+          ls -la
           if [ -d "./out" ]; then
             echo "✅ out directory found"
+            echo "Contents of out directory:"
             ls -la ./out
           else
             echo "❌ out directory not found"
-            echo "Available directories:"
-            ls -la
-            exit 1
+            echo "Checking if .next/static exists:"
+            if [ -d "./.next/static" ]; then
+              echo "✅ .next/static exists - build successful but no static export"
+              echo "Trying manual export..."
+              npx next export
+              if [ -d "./out" ]; then
+                echo "✅ Manual export successful"
+                ls -la ./out
+              else
+                echo "❌ Manual export failed"
+                exit 1
+              fi
+            else
+              echo "❌ Build appears to have failed completely"
+              exit 1
+            fi
           fi
 
       - name: Upload artifact
