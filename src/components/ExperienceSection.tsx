@@ -231,11 +231,11 @@ const ExperienceSection = () => {
               Ready to Add Value to Your Team?
             </h3>
             <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
-              With 15+ years of experience across industry leaders, I'm ready to bring 
+              With 15+ years of experience across industry leaders, I&apos;m ready to bring 
               the same level of excellence to your next project.
             </p>
             <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all">
-              Let's Work Together
+              Let&apos;s Work Together
             </button>
           </div>
         </motion.div>

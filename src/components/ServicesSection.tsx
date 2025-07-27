@@ -138,7 +138,7 @@ const ServicesSection = () => {
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Comprehensive C++ and Qt development services designed to accelerate your projects 
-            and elevate your team's capabilities.
+            and elevate your team&apos;s capabilities.
           </p>
         </motion.div>
 
@@ -232,7 +232,7 @@ const ServicesSection = () => {
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Ready to Start Your Project?</h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Let's discuss how I can help you achieve your technical goals with professional C++ and Qt development.
+              Let&apos;s discuss how I can help you achieve your technical goals with professional C++ and Qt development.
             </p>
             <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors">
               Get Free Consultation
