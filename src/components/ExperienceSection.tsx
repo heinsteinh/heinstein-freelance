@@ -7,12 +7,12 @@ const ExperienceSection = () => {
   const experiences = [
     {
       company: 'DEUTA-WERKE',
-      logo: '/logos/deuta-logo.svg',
+      logo: '/logos/deuta.jpg',
       position: 'Senior C++/Qt Developer',
       period: '2025 - Present',
       location: 'Bergisch Gladbach, Germany',
       type: 'Freelance',
-      description: 'Leading the development of next-generation transportation technology solutions using modern C++ and Qt frameworks.',
+            description: "Led a team of 4 engineers developing next-generation automotive HMI using Qt/QML. Implemented modern C++17 standards and improved system performance by 40%. Architected scalable solutions following automotive industry standards (ISO 26262).",
       achievements: [
         'Architected scalable transportation control systems',
         'Implemented real-time data processing modules',
@@ -24,7 +24,7 @@ const ExperienceSection = () => {
     },
     {
       company: 'Vorwerk',
-      logo: '/logos/vorwerk-logo.svg',
+      logo: '/logos/Vorwerk_Logo_BIMI_Square.jpeg',
       position: 'Lead Software Engineer',
       period: '2024 - 2025',
       location: 'Wuppertal, Germany',
@@ -41,7 +41,7 @@ const ExperienceSection = () => {
     },
     {
       company: 'Baker Hughes',
-      logo: '/logos/baker-hughes-logo.svg',
+      logo: '/logos/Baker-Hughes-Logo.png',
       position: 'Principal Software Engineer',
       period: '2017 - 2023',
       location: 'Florence, Italy',
@@ -58,7 +58,7 @@ const ExperienceSection = () => {
     },
     {
       company: 'General Electric',
-      logo: '/logos/ge-logo.svg',
+      logo: '/logos/General_Electric_logo.svg.png',
       position: 'Senior Software Developer',
       period: '2008 - 2017',
       location: 'Florence, Italy',

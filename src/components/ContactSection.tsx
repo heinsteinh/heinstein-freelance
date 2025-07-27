@@ -124,10 +124,10 @@ const ContactSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-slate-800 mb-4">
-            Let's Work <span className="text-blue-600">Together</span>
+            Let&apos;s Work <span className="text-blue-600">Together</span>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Ready to start your next project? Get in touch and let's discuss how I can help 
+            Ready to start your next project? Get in touch and let&apos;s discuss how I can help 
             you achieve your technical goals with professional C++ and Qt development.
           </p>
         </motion.div>
@@ -230,7 +230,7 @@ const ContactSection = () => {
                   </div>
                   <h4 className="text-xl font-bold text-slate-800 mb-2">Message Sent!</h4>
                   <p className="text-slate-600">
-                    Thank you for your message. I'll get back to you within 24 hours.
+                    Thank you for your message. I&apos;ll get back to you within 24 hours.
                   </p>
                 </motion.div>
               ) : (
@@ -301,7 +301,7 @@ const ContactSection = () => {
                         <option value="10k-25k">€10,000 - €25,000</option>
                         <option value="25k-50k">€25,000 - €50,000</option>
                         <option value="50k+">€50,000+</option>
-                        <option value="discuss">Let's discuss</option>
+                        <option value="discuss">Let&apos;s discuss</option>
                       </select>
                     </div>
                   </div>

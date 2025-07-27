@@ -6,7 +6,7 @@ const CompaniesSection = () => {
   const companies = [
     {
       name: 'DEUTA-WERKE',
-      logo: '/logos/deuta-logo.svg',
+      logo: '/logos/deuta.jpg',
       website: 'https://www.deuta.com',
       description: 'Transportation Technology',
       period: '2025',
@@ -14,7 +14,7 @@ const CompaniesSection = () => {
     },
     {
       name: 'Vorwerk',
-      logo: '/logos/vorwerk-logo.svg', 
+      logo: '/logos/Vorwerk_Logo_BIMI_Square.jpeg', 
       website: 'https://www.vorwerk.com',
       description: 'Consumer Products & IoT',
       period: '2024-2025',
@@ -22,7 +22,7 @@ const CompaniesSection = () => {
     },
     {
       name: 'Baker Hughes',
-      logo: '/logos/baker-hughes-logo.svg',
+      logo: '/logos/Baker-Hughes-Logo.png',
       website: 'https://www.bakerhughes.com',
       description: 'Industrial Technology',
       period: '2017-2023',
@@ -30,7 +30,7 @@ const CompaniesSection = () => {
     },
     {
       name: 'General Electric',
-      logo: '/logos/ge-logo.svg',
+      logo: '/logos/General_Electric_logo.svg.png',
       website: 'https://www.ge.com',
       description: 'Industrial Conglomerate',
       period: '2008-2017',
@@ -60,7 +60,7 @@ const CompaniesSection = () => {
             Trusted by Industry Leaders
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            I've had the privilege of working with some of the world's leading companies, 
+            I&apos;ve had the privilege of working with some of the world&apos;s leading companies, 
             delivering enterprise-grade C++ and Qt solutions.
           </p>
         </motion.div>

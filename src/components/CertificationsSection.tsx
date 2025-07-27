@@ -8,7 +8,6 @@ import {
   Code, 
   Globe, 
   Calendar,
-  ExternalLink,
   CheckCircle,
   Users
 } from 'lucide-react'

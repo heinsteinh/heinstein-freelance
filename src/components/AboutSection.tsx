@@ -64,12 +64,12 @@ const AboutSection = () => {
                 I specialize in creating robust, high-performance applications for enterprise environments.
               </p>
               <p className="mb-4">
-                My journey spans across leading technology companies where I've architected and delivered 
+                My journey spans across leading technology companies where I&apos;ve architected and delivered 
                 mission-critical software solutions, led development teams, and established best practices 
                 for modern C++ development.
               </p>
               <p>
-                I'm passionate about clean code, performance optimization, and mentoring the next generation 
+                I&apos;m passionate about clean code, performance optimization, and mentoring the next generation 
                 of developers. Whether you need a technical consultant, a senior developer, or a team lead, 
                 I bring the expertise and leadership to drive your projects to success.
               </p>
